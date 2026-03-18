@@ -37,4 +37,5 @@ body {
     text-align: center;
     background-color: silver;
     border-radius: 5px;
+    font-style: unset;
 }
