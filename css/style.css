@@ -39,3 +39,15 @@ body {
     border-radius: 5px;
     font-style: unset;
 }
+.events ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.event-card {
+    width: 250px;
+}
+        
