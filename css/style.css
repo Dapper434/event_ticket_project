@@ -133,7 +133,7 @@ button:hover {
     transition: transform 0.7s ease;
 }
 
-.Vision {
+.Statement {
      background-color: rgb(156, 128, 94);
      width: 280px;
      border-radius: 12px;
@@ -148,7 +148,7 @@ button:hover {
     padding: 0 0 16px 0;
 }
 
-.Mission img {
+.Statement img {
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -158,15 +158,11 @@ button:hover {
     transition: transform 0.3s ease;
 }
 
-.event-card img:hover {
+.Statement img:hover {
     transform: scale(0.95);
-.aboutimg img {
-    float: left;
-    margin-right: 15px;
-    border-radius: 10px;
-}
 
 }
+
 
 #contact {
     padding: 30px 20px;
