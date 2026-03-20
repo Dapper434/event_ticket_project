@@ -2,23 +2,82 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: lemonchiffon;
-    color: #333;
+
+.navbar {
+    display: flex;
+    background-color: #676865;
+    padding: 22px 14px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+.navtitle {
+    color: rgb(235, 223, 228);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav_tags {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+    
+    
+    list-style: none; 
+    padding: 0; 
+}
+
+
+.nav_tags a {
+    color: rgb(235, 223, 228);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease; /* I added a quick transition to make the hover effect fade in smoothly! */
+}
+
+
+.nav_tags a:hover {
+    color: rgb(224, 236, 50);
+}
+body{
+    font-family: Arial,Roboto ;
     margin: 0;
-    padding: 0;
+    padding: 17px;
+    background-color: rgb(253, 250, 225);
+}
+h2{
+    display: flex;
+    text-align: center;
+    color: #b61d1d;
+    justify-content: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    display: flex;
+    text-align: left;
+    font-size: 28px;
+}
+.sections-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+img{
+    border-radius: 13px;
+    transition: transform 0.25s ease;
 }
 
-nav {
-    background-color: #333;
-    padding: 12px 20px;
-    text-align: right;
-}
-
-nav a {
-    color: white;
-<<<<<<< HEAD
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: mintcream;
 }
 
 .bookmark ol {
@@ -56,42 +115,17 @@ nav a {
 
 .bookmark-card button {
     margin-top: 12px;
-}
-
-=======
->>>>>>> 5b922ad24864c5df2927618da16b2eba0467d37d
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 5px;
-
+}
 
 nav a:hover {
     background-color: #555;
 }
 
-.navtitle {
-    float: left;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 8px 0;
-}
 
-.home-content {
-    text-align: center;
-    background-color: silver;
-    padding: 40px 20px;
-}
 
-.home-content h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.home-content p {
-    font-size: 1rem;
-    margin-bottom: 10px;
-}
 
 button {
     background-color: #323c83;
@@ -188,6 +222,9 @@ footer {
     padding: 16px;
     margin-top: 30px;
 }
+
+
+
 
 .events ol {
     display: flex;
@@ -327,4 +364,11 @@ footer {
 }
 #contact a:hover {
     text-decoration: underline;
+}
+@media screen {
+    .event-card ol {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
