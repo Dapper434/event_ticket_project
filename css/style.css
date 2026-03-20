@@ -162,6 +162,12 @@ button:hover {
     transform: scale(0.95);
 
 }
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 #contact {
