@@ -156,6 +156,7 @@ button:hover {
     margin: 0;
     display: block;
     transition: transform 0.3s ease;
+    margin-bottom: 15px;
 }
 
 .Statement img:hover {
@@ -164,9 +165,11 @@ button:hover {
 }
 .flex-container {
     display: flex;
+    height: max-content;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 
