@@ -2,26 +2,45 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .navbar {
-   display: flex;
+    display: flex;
     background-color: #676865;
     padding: 22px 14px;
     justify-content: space-between;
     align-items: center;
     border-radius: 6px;
 }
-.nav_tags{
+
+
+.navtitle {
+    color: rgb(235, 223, 228);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.nav_tags {
     margin-left: auto;
     display: flex;
     gap: 30px;
+    
+    
+    list-style: none; 
+    padding: 0; 
 }
+
+
 .nav_tags a {
     color: rgb(235, 223, 228);
     text-decoration: none;
     font-size: 16px;
+    transition: color 0.3s ease; /* I added a quick transition to make the hover effect fade in smoothly! */
 }
+
+
 .nav_tags a:hover {
-    color: rgb(224, 236, 50)
+    color: rgb(224, 236, 50);
 }
 body{
     font-family: Arial,Roboto ;
@@ -52,6 +71,7 @@ h1{
 }
 img{
     border-radius: 13px;
+    transition: transform 0.25s ease;
 }
 
 footer{
